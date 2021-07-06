@@ -1,9 +1,15 @@
 body{
     font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
     margin: 0;
 }
 h1{
     font-size: 50px;
+    margin-bottom: 0;
+}
+h2{
+    font-size: 35px;
+    color: salmon;
     margin-bottom: 0;
 }
 .hero-container{
@@ -14,15 +20,18 @@ h1{
     margin: 0;
 }
 .hero-container p{
+    margin-top: 0;
     margin-bottom: 35px;
-
+}
+.green-text{
+    color: greenyellow;
 }
 
 .link-button{
     margin-top: 20px;
     text-decoration: none;
     color: white;
-    background-color: green;
+    background-image: linear-gradient(rgb(102, 25, 6), rgb(247, 162, 147));
     width: 120px;
     height: 20px;  
     padding: 10px 30px;
@@ -34,11 +43,53 @@ h1{
     top: 25%;
     height: 200px;
     background-color: black;
-    opacity: .8;
+    opacity: .65;
     color: white;
     
 }
-
-.green-text{
-    color: greenyellow;
+.flexible-container{
+    display: flex;
 }
+.diet-container{
+    background-image: url(images/shapes/7.png);
+}
+.diet-description{
+    width: 30%;
+    padding:30px;
+    margin-left: 10%;
+}
+.diet-description p{
+    margin-bottom: 35px;
+}
+.box-shadow{
+    box-shadow: 10px 10px 40px gray;
+}
+.diet-container img{
+    position: right;
+    margin-top: 10%;
+}
+.about-image{
+    width: 30%;
+    margin: 10%;
+    position: left;
+}
+.about-description{
+    width: 30%;
+    margin: 10%;
+    padding: 10px 30px;
+    text-align: center;
+}
+.about-description p{
+    margin-bottom: 40px;
+}
+
+
+.box-shadow{
+    box-shadow: 10px 10px 40px gray;
+}
+
+.about-description h2{
+    color: black;
+}
+
+
