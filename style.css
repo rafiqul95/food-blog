@@ -135,9 +135,10 @@ h3{
     font-size: 14px;
 }
 .graph-container{
-    width: 100%;
-    box-shadow: 2px 2px 2px gray;
-    margin: 50px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 50px;
 }
 .graph-item{
     width: 30%;
