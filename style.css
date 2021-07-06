@@ -17,21 +17,21 @@ h3{
 }
 .hero-container{
     background-image: url(images/food/Project\ Cover4.png);
+    background-repeat: no-repeat;
     text-align: center;
     height: 600px;
-    width: auto;
-    margin: 0;
-    margin-bottom: 35px;
+    
 }
 
 .heading-hero{
+    width: 50%;
     margin: auto;
-    width: 60%;
-    top: 25%;
-    height: 200px;
+    height: 350px;
+    padding: 10px;
     background-color: black;
     opacity: .65;
     color: white;
+    margin-bottom: 35px;
     
 }
 .green-text{
@@ -76,12 +76,16 @@ h3{
 .about-image{
     width: 30%;
     margin: 10%;
+    display: block;
+    background-image: url(images/shapes/Group\ 8447.png);
+    background-repeat: no-repeat;
 }
 .about-description{
     width: 30%;
     margin: 10%;
     padding: 10px 30px;
     text-align: center;
+    border-radius: 7%;
 }
 .about-description p{
     margin-bottom: 40px;
@@ -96,7 +100,7 @@ h3{
 .recipe-container{
     background-color: whitesmoke;
     
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 .recipe-container h2{
     text-align: center;
@@ -104,7 +108,7 @@ h3{
 .recipe-container p{
     text-align: center;
     font-size: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 .recipe-item{
     align-content: center;
@@ -130,7 +134,15 @@ h3{
 .recipe-item p{
     font-size: 14px;
 }
-
+.graph-container{
+    width: 100%;
+    box-shadow: 2px 2px 2px gray;
+    margin: 50px;
+}
+.graph-item{
+    width: 30%;
+    text-align: center;
+}
 .footer{
     background-color: black;
     width: 100%;
